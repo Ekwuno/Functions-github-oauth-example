@@ -28,7 +28,7 @@ function handleCodeComingFromApp(){
 
 
 async function sendCodeToServer(){
-    const server = "http://localhost:8788/api/code";
+    const server = "/api/code";
     try {
         const res = await fetch(server, {
             method: "POST",
